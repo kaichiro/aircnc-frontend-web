@@ -1,10 +1,13 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.1.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.1.2"
   },
   "scripts": {
@@ -27,5 +30,22 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Projeto frontend",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaichiro/aircnc-frontend-mobile.git"
+  },
+  "author": "kaichiro <kcfg23@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaichiro/aircnc-frontend-mobile/issues"
+  },
+  "homepage": "https://github.com/kaichiro/aircnc-frontend-mobile#readme",
+  "devDependencies": {},
+  "keywords": [
+    "ReactJS",
+    "Rockeseat"
+  ]
 }
